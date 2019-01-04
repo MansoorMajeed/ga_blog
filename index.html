@@ -1,0 +1,125 @@
+---
+layout: home
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="icon" href="{{ site.favicon }}" type="image/png" sizes="16x16">
+
+</head>
+
+<body>
+    <img id="bgimg" src="{{ site.backgroundImage }}" alt="background image">
+    <div class="wrapper">
+
+
+        <!-- Navigation Menu -->
+        <div class="navbar">
+
+            <div>
+                <ul class="leftnav">
+                    <a target="_BLANK" href="{{ site.nav1link }}">
+                        <li>{{site.nav1}}</li>
+                    </a>
+                    <a target="_BLANK" href="{{ site.nav2link }}">
+                        <li>{{site.nav2}}</li>
+                    </a>
+                    <a target="_BLANK" href="{{ site.nav3link }}">
+                        <li>{{site.nav3}}</li>
+                    </a>
+                    <a target="_BLANK" href="{{ site.nav4link }}">
+                        <li>{{site.nav4}}</li>
+                    </a>
+                    <a target="_BLANK" href="{{ site.nav5link }}">
+                        <li>{{site.nav5}}</li>
+                    </a>
+                    <a target="_BLANK" href="{{ site.nav6link }}">
+                        <li>{{site.nav6}}</li>
+                    </a>
+                </ul>
+            </div>
+
+
+            <!-- Social Icons -->
+            <div class="rightnav">
+                <ul>
+                    <li><a target="_BLANK" href="{{ site.icon6link }}">{{ site.icon6 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon5link }}">{{ site.icon5 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon4link }}">{{ site.icon4 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon3link }}">{{ site.icon3 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon2link }}">{{ site.icon2 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon1link }}">{{ site.icon1 }}</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="avatar">
+                <div class="backshadow">
+                    <div class="photo">
+                        <img src="{{ site.avatar }}" alt="avatar">
+                    </div>
+                </div>
+
+                <div class="name">
+                    <h2>{{ site.fadedHead }}</h2>
+                    <h1>{{ site.heading }}</h1>
+                </div>
+            </div>
+            <div class="info">
+                <p class="aboutme">{{ site.bio }}</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="hobbies">
+                <ul>
+                    <li>{{ site.skill1 }}</li>
+                    <li>{{ site.skill2 }}</li>
+                    <li>{{ site.skill3 }}</li>
+                    <li>{{ site.skill4 }}</li>
+                    <li>{{ site.skill5 }}</li>
+                    <li>{{ site.skill6 }}</li>
+                    <li>{{ site.skill7 }}</li>
+                    <li>{{ site.skill8 }}</li>
+                    <li>{{ site.skill9 }}</li>
+                    <li>{{ site.skill10 }}</li>
+                </ul>
+            </div>
+            <ul class="show hobbies">
+                <li>{{ site.skill1 }}</li>
+                <li>{{ site.skill2 }}</li>
+                <li>{{ site.skill3 }}</li>
+                <li>{{ site.skill4 }}</li>
+            </ul>
+
+            <div class="links">
+                <button>{{ site.nav1 }}</button>
+                <button>{{ site.nav2 }}</button>
+                <button>{{ site.nav3 }}</button>
+                <button>{{ site.nav4 }}</button>
+            </div>
+
+            <div class="mobilesocial">
+                <ul>
+                    <li><a target="_BLANK" href="{{ site.icon1link }}">{{ site.icon1 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon2link }}">{{ site.icon2 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon3link }}">{{ site.icon3 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon4link }}">{{ site.icon4 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon5link }}">{{ site.icon5 }}</a></li>
+                    <li><a target="_BLANK" href="{{ site.icon6link }}">{{ site.icon6 }}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

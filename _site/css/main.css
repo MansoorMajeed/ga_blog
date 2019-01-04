@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#bgimg {
+    width: 100%;
+    transform: rotate(180deg);
+    filter: blur(5px);
+    height: 100%;
+    opacity: .2;
+    z-index: -1;
+    position: fixed;
+}
+
+li {
+    display: inline;
+}
+
+ul,
+a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #2b2b2b;
+    font-size: 100%;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.leftnav {
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.rightnav {
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    right: 10%;
+}
+
+ul li {
+    opacity: .7;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    margin-top: 90px;
+    border-radius: 50%;
+    border: 20px solid rgb(250, 248, 248);
+}
+
+.name h2 {
+    font-size: 160px;
+    font-weight: bolder;
+    position: fixed;
+    top: 265px;
+    left: 50%;
+    z-index: -1;
+    border: rgb(70, 69, 69) 10px solid;
+    transform: translate(-50%);
+    opacity: .03;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.name h1 {
+    width: 30%;
+    min-width: 250px;
+    font-size: 50px;
+    color: #2b2b2b;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: .9;
+    margin: auto;
+    cursor: pointer;
+}
+
+.aboutme {
+    width: 50%;
+    font-size: 18px;
+    margin: 30px auto auto auto;
+    opacity: .7;
+}
+
+.links,
+.mobilesocial {
+    display: none;
+}
+
+.hobbies {
+    width: 100%;
+    margin: 5% auto auto auto;
+    font-size: 30px;
+    opacity: .5;
+}
+
+.hobbies li {
+    padding-right: 50px;
+}
+
+.show {
+    display: none;
+}
+
+.links {
+    width: 100%;
+}
+
+.links button {
+    min-width: 20%;
+    height: auto;
+    opacity: .6;
+    margin: 1%;
+    margin-top: 10%;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    border: #2b2b2b 1px solid;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.mobilesocial {
+    font-size: 30px;
+    opacity: .7;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 986px) {
+    .hobbies ul {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 666px) {
+
+    .leftnav,
+    .rightnav {
+        display: none;
+    }
+
+    .name h2 {
+        display: none;
+    }
+
+    .photo img {
+        margin-top: 50px;
+        border: 10px solid rgb(255, 248, 248);
+    }
+
+    .name h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .show {
+        display: none;
+    }
+
+    .aboutme {
+        width: 90%;
+    }
+
+    .links,
+    .mobilesocial {
+        display: block;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .aboutme {
+        width: 100%;
+    }
+}

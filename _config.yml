@@ -1,0 +1,73 @@
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+
+#User Settings
+title: Muhsin
+url: "ga_blog"
+baseurl: ""
+favicon: "images/triangle.png"
+backgroundImage: "images/bg.jpeg"
+
+
+#UserNavBar
+#add navigation item Name in navX and add respective link to navXlink
+#I added 6 slots, so you can add 6 navigation links.(nav4,nav5,nav6)  If you want more feel free to edit index.html :)
+nav1: About
+nav1link: 
+
+nav2: Blog
+nav2link:
+
+nav3: Works
+nav3link:
+
+nav4: Travel
+nav4link:
+
+
+#UserSocialIcons
+#visit ( https://fontawesome.com/icons?d=gallery ) and find your icons and then copy the tag (it looks something like this --> <i class="fab fa-facebook"></i>) and paste it in iconX, type in the link to iconXlink.
+#I added 6 slots, so you can add 6 icons. If you want more feel free to edit index.html :)
+
+icon1: <i class="fab fa-facebook"></i>
+icon1link: https://www.facebook.com/muhsin7majeed
+
+icon2: <i class="fab fa-instagram"></i>
+icon2link: https://www.instagram.com/muhsin7majeed
+
+icon3: <i class="fab fa-github"></i>
+icon3link: https://github.com/muhsin7majeed
+
+icon4: <i class="fab fa-twitter"></i>
+icon4link: http://twitter.com/muhsin7majeed
+
+
+#UserImage
+avatar: "images/avatar.jpg"
+
+#UserHeadings
+fadedHead: sooperuser #that faded text behind actual heading
+heading: Muhsin
+bio: Web Developer | Web designer | Commerce Student | Science and Tech Enthusiast
+
+
+#UserSkills
+#visit ( https://fontawesome.com/icons?d=gallery ) and find your icons and then copy the tag (for eg: <i class="fas fa-cloud-upload-alt"></i> ) and paste it in iconX.
+skill1: <i class="fas fa-code-branch"></i>
+skill2: <i class="fab fa-html5"></i>
+skill3: <i class="fas fa-rss"></i>
+skill4: <i class="fab fa-adobe"></i>
+skill5: <i class="fas fa-pencil-alt"></i>
+skill6: <i class="fas fa-database"></i>
+skill7: <i class="fab fa-linux"></i>
+skill8: <i class="fas fa-terminal"></i>
+skill9: <i class="fab fa-python"></i>
+skill10: <i class="fas fa-cloud-upload-alt"></i>
+
+
+# Exclude from processing.
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
